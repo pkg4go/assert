@@ -20,3 +20,12 @@ func TestBasic(t *testing.T) {
 	a.NotEqual("1", "2")
 	a.NotEqual([]int{1, 2, 3}, []int{1, 2})
 }
+
+func TestReport(t *testing.T) {
+	// a := A{t}
+
+	// a.Nil(true)
+	// a.NotNil(nil)
+	// a.Equal(1, 2)
+	// a.NotEqual(1, 1)
+}
